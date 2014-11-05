@@ -50,6 +50,12 @@ window.utils.captureMouse = function (element) {
       offsetLeft = element.offsetLeft,
       offsetTop = element.offsetTop;
   
+    
+  console.log(document.documentElement);
+  console.log(document.body);
+  console.log(element_scrollLeft);
+  console.log(body_scrollLeft);
+    
   element.addEventListener('mousemove', function (event) {
     var x, y;
     
